@@ -1,0 +1,52 @@
+/* MAPA ENTERO */
+.leaflet-container {
+    border: none;
+    filter: contrast(1.1) brightness(1.05);
+  }
+  
+  /* PANEL LATERAL */
+  .offcanvas {
+    background: linear-gradient(to bottom right, #fdf0d5, #ffd166);
+    font-family: 'Poppins', sans-serif;
+    box-shadow: -5px 0 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* TÍTULO */
+  .offcanvas-title {
+    font-weight: bold;
+    color: #780000;
+  }
+  
+  /* BOTÓN de actividades */
+  .offcanvas .btn-success {
+    background-color: #60d394;
+    border: none;
+    font-weight: 600;
+    padding: 10px 16px;
+  }
+  
+  .offcanvas .btn-success:hover {
+    background-color: #4cb87a;
+  }
+  
+  /* FORMULARIO */
+  .offcanvas textarea.form-control {
+    border-radius: 10px;
+    border: 2px solid #003049;
+  }
+  
+  .offcanvas .btn-primary {
+    background-color: #003049;
+    border: none;
+    font-weight: bold;
+  }
+  
+  .offcanvas .btn-primary:hover {
+    background-color: #002233;
+  }
+  
+  .text-success {
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  

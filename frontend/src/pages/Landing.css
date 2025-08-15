@@ -1,0 +1,45 @@
+.landing-hero {
+    height: 100vh;
+    background: linear-gradient(135deg, #c1121f, #780000);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    padding: 2rem;
+  }
+  
+  .btn-explore {
+    background-color: #ffd166;
+    color: #fff !important;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .btn-explore:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(255, 209, 102, 0.8);
+  }
+  
+  .btn-login {
+    background-color: #003049;
+    color: #fff !important;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .btn-login:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 48, 73, 0.8);
+  }
+  

@@ -1,0 +1,42 @@
+.card {
+    border: none;
+    border-radius: 1rem;
+    background: linear-gradient(145deg, #fdf0d5, #ffecc7);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-title {
+    font-weight: 700;
+    color: #c1121f;
+  }
+  
+  .card-subtitle {
+    font-size: 0.9rem;
+    color: #003049;
+  }
+  
+  .card-text {
+    font-size: 0.95rem;
+  }
+  
+  .btn-fab {
+    background-color: #ff6b6b;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .btn-fab:hover {
+    background-color: #c1121f;
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  }
+  
